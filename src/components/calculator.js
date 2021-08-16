@@ -1,7 +1,32 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import calculate from '../logic/calculate';
+import '../logic/operate';
 
 class Calculator extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      operation: null,
+      next: null,
+      total: null,
+    };
+    this.buttonClicked = this.buttonClicked.bind(this);
+  }
+
+  buttonClicked(e) {
+    const buttonName = e.target.innerText;
+    const result = calculate(this.state, buttonName);
+    this.setState((previousState) => {
+      const { operation, next, total } = previousState;
+      return {
+        operation: ((result.operation === undefined) ? operation : result.operation),
+        next: ((result.next === undefined) ? next : result.next),
+        total: ((result.total === undefined) ? total : result.total),
+      };
+    });
+  }
+
   render() {
     return (
       <div id="calculator">
