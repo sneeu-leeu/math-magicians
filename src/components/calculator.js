@@ -37,7 +37,7 @@ class Calculator extends React.Component {
           <button className="grid-item" type="button" onClick={this.buttonClicked}>+/-</button>
           <button className="grid-item" type="button" onClick={this.buttonClicked}>%</button>
           <button className="grid-item" type="button" onClick={this.buttonClicked}>AC</button>
-          <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>/</button>
+          <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>÷</button>
 
           <button className="grid-item" type="button" onClick={this.buttonClicked}>7</button>
           <button className="grid-item" type="button" onClick={this.buttonClicked}>8</button>
