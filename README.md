@@ -3,7 +3,7 @@
 # Math Magicians
 
 > This is a SPA which will allow you to run mathematical opperations
-- being built blease be patiant  (This is just the react setup milestone)
+- being built blease be patient  (This is just the react setup milestone)
 
 
 ![screenshot](./img/scree-shot.png)
