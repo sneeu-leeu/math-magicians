@@ -28,9 +28,10 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { next, total } = this.state;
     return (
       <div id="calculator">
-        <input className="cal-val" value={next || (total || 0)} readOnly/>
+        <input className="cal-val" value={next || (total || 0)} readOnly />
         <div className="buttons grid-box">
 
           <button className="grid-item" type="button" onClick={this.buttonClicked}>+/-</button>
