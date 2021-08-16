@@ -5,7 +5,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div id="calculator">
-        <input className="cal-val" value="0" />
+        <input className="cal-val" value="0" readOnly />
         <div className="buttons grid-box">
 
           <button className="grid-item" type="button">+/-</button>

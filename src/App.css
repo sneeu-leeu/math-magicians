@@ -4,9 +4,10 @@
 }
 
 .cal-val {
-  width: 98%;
+  width: 97%;
   height: 2.5rem;
   background-color: rgb(187, 187, 187);
+  text-align: end;
 }
 
 .grid-box {
