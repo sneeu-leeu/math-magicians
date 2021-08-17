@@ -27,29 +27,29 @@ export default function Calculator() {
       <input className="cal-val" value={next || (total || 0)} readOnly />
       <div className="buttons grid-box">
 
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>+/-</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>%</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>AC</button>
-        <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>÷</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>+/-</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>%</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>AC</button>
+        <button className="grid-item bg-orange" type="button" onClick={buttonClicked}>÷</button>
 
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>7</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>8</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>9</button>
-        <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>x</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>7</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>8</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>9</button>
+        <button className="grid-item bg-orange" type="button" onClick={buttonClicked}>x</button>
 
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>4</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>5</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>6</button>
-        <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>-</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>4</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>5</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>6</button>
+        <button className="grid-item bg-orange" type="button" onClick={buttonClicked}>-</button>
 
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>1</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>2</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>3</button>
-        <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>+</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>1</button>
+        <button className="grid-item" type="button" onClick={.buttonClicked}>2</button>
+        <button className="grid-item" type="button" onClick={.buttonClicked}>3</button>
+        <button className="grid-item bg-orange" type="button" onClick={.buttonClicked}>+</button>
 
-        <button className="grid-item nill-btn" type="button" onClick={this.buttonClicked}>0</button>
-        <button className="grid-item" type="button" onClick={this.buttonClicked}>.</button>
-        <button className="grid-item bg-orange" type="button" onClick={this.buttonClicked}>=</button>
+        <button className="grid-item nill-btn" type="button" onClick={.buttonClicked}>0</button>
+        <button className="grid-item" type="button" onClick={.buttonClicked}>.</button>
+        <button className="grid-item bg-orange" type="button" onClick={.buttonClicked}>=</button>
       </div>
     </div>
   );
