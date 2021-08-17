@@ -1,5 +1,5 @@
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import React, {useState} from 'react';
 import calculate from '../logic/calculate';
 import '../logic/operate';
 
