@@ -4,7 +4,7 @@
 
 > This is a SPA in which you can do calculations on a calculator
 
-<!-- ![screenshot](./img/scree-shot.png) -->
+![screenshot](./img/scree-shot.png)
 
 ## Built With
 
