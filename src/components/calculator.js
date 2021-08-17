@@ -43,15 +43,14 @@ export default function Calculator() {
         <button className="grid-item bg-orange" type="button" onClick={buttonClicked}>-</button>
 
         <button className="grid-item" type="button" onClick={buttonClicked}>1</button>
-        <button className="grid-item" type="button" onClick={.buttonClicked}>2</button>
-        <button className="grid-item" type="button" onClick={.buttonClicked}>3</button>
-        <button className="grid-item bg-orange" type="button" onClick={.buttonClicked}>+</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>2</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>3</button>
+        <button className="grid-item bg-orange" type="button" onClick={buttonClicked}>+</button>
 
-        <button className="grid-item nill-btn" type="button" onClick={.buttonClicked}>0</button>
-        <button className="grid-item" type="button" onClick={.buttonClicked}>.</button>
-        <button className="grid-item bg-orange" type="button" onClick={.buttonClicked}>=</button>
+        <button className="grid-item nill-btn" type="button" onClick={buttonClicked}>0</button>
+        <button className="grid-item" type="button" onClick={buttonClicked}>.</button>
+        <button className="grid-item bg-orange" type="button" onClick={buttonClicked}>=</button>
       </div>
     </div>
   );
 }
-
