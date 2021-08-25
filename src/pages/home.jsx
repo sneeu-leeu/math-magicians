@@ -3,8 +3,8 @@ export default function Home() {
     <div>
       <h2
         style={{
-          marginBottom: '20px',
-          marginTop: '50px',
+          marginBottom: '2rem',
+          marginTop: '5rem',
         }}
       >
         Welcome to our Page!

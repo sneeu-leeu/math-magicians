@@ -5,11 +5,11 @@ export default function CalcPage() {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'space-between',
-        padding: '20px',
+        justifyContent: 'space-around',
+        padding: '0% 5rem 0% 1rem',
       }}
     >
-      <div>
+      <div className="w-30">
         <h4>Let&apos;s do some math!</h4>
       </div>
       <Calculator />

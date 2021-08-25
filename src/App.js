@@ -21,11 +21,15 @@ function App() {
             padding: '20px',
           }}
         >
-          <h1>Math Magicians</h1>
-          <nav>
-            <Link className="p-10 border border-dark mr-20 mt-5 text-decoration-none menu-focus" to="/">Home</Link>
-            <Link className="p-10 border border-dark mr-20 mt-5 text-decoration-none menu-focus" to="/calculator">Calculator</Link>
-            <Link className="p-10 border border-dark mt-5 text-decoration-none" to="/quote">Quote</Link>
+          <nav className="d-flex">
+            <div>
+              <h1 className="header">Math Magicians</h1>
+            </div>
+            <div>
+              <Link className="p-10 mt-5 text-decor r-border menu-focus h-1" to="/">Home</Link>
+              <Link className="p-10 mt-5 text-decor r-border menu-focus h-1" to="/calculator">Calculator</Link>
+              <Link className="p-10 mt-5 text-decor m-right-5 h-1" to="/quote">Quote</Link>
+            </div>
           </nav>
         </header>
         <main
