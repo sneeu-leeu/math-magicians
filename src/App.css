@@ -30,3 +30,7 @@
 .bg-orange {
   background-color: rgb(255, 124, 2);
 }
+
+.p-10 {
+  padding: 10px;
+}
