@@ -16,7 +16,7 @@
 ## Live Demo
 
 
-- [Live Demo](https://eloquent-bartik-1b997d.netlify.app/calculator)
+- [Live Demo](https://eloquent-bartik-1b997d.netlify.app)
 
 ### Setup
 
