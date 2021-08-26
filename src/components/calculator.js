@@ -24,8 +24,8 @@ export default function Calculator() {
   const { next, total } = calc;
   return (
     <div id="calculator">
-      <input className="cal-val" value={next || (total || 0)} readOnly />
       <div className="buttons grid-box">
+        <input className="bg-grey grid-item input" value={next || (total || 0)} readOnly />
 
         <button className="grid-item" type="button" onClick={buttonClicked}>+/-</button>
         <button className="grid-item" type="button" onClick={buttonClicked}>%</button>
