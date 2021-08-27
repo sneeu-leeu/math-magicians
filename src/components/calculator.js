@@ -8,27 +8,10 @@ export default function Calculator() {
     operation: null,
     next: null,
     total: null,
-    error: null,
   });
-
   const buttonClicked = (e) => {
-    const { error } = calc;
-    if (error) {
-      setValues({ ...calc, error: null });
-    }
-    const buttonName = e.target.innerText || e.target.innerHTML;
-    let result;
-    try {
-      result = calculate(calc, buttonName);
-    } catch (err) {
-      setValues({
-        operation: null,
-        next: null,
-        total: 0,
-        error: err,
-      });
-      return;
-    }
+    const buttonName = e.target.innerText;
+    const result = calculate(calc, buttonName);
 
     const { operation, next, total } = calc;
     setValues({
@@ -38,11 +21,11 @@ export default function Calculator() {
     });
   };
 
-  const { next, total, error } = calc;
+  const { next, total } = calc;
   return (
     <div id="calculator">
       <div className="buttons grid-box">
-        <input className="bg-grey grid-item input" value={error || next || (total || 0)} readOnly />
+        <input className="bg-grey grid-item input" value={next || (total || 0)} readOnly />
 
         <button className="grid-item" type="button" onClick={buttonClicked}>+/-</button>
         <button className="grid-item" type="button" onClick={buttonClicked}>%</button>
