@@ -16,7 +16,7 @@
 ## Live Demo
 
 
-- [Live Demo](https://eloquent-bartik-1b997d.netlify.app/calculator)
+- [Live Demo](https://eloquent-bartik-1b997d.netlify.app)
 
 ### Setup
 
@@ -42,7 +42,7 @@ Github: @sneeu-leeu
 
 Twitter: @Stephan07484055
 
-Linkedin: Stephan Annandale
+LinkedIn: Stephan Annandale
 
 👤 **Onesis Olea**
 

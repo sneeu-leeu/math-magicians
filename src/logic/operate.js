@@ -14,6 +14,7 @@ export default function operate(numberOne, numberTwo, operation) {
   }
   if (operation === '÷') {
     if (numberTwo === '0') return 'Can/t devide by 0';
+    return one.div(two).toString();
   }
   if (operation === '%') {
     return one.mod(two).toString();
