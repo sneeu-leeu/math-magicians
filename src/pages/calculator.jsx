@@ -1,6 +1,6 @@
 import Calculator from '../components/calculator';
 
-export default function CalcPage() {
+function CalcPage() {
   return (
     <div
       style={{
@@ -16,3 +16,5 @@ export default function CalcPage() {
     </div>
   );
 }
+
+export default CalcPage;
