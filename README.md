@@ -40,6 +40,12 @@ Twitter: @Stephan07484055
 
 Linkedin: Stephan Annandale
 
+👤 **Onesis Olea**
+
+- GitHub: [@2bleO](https://github.com/2bleO)
+- Twitter: [@OleaOnesis](https://twitter.com/OleaOnesis)
+- LinkedIn: [Onesis Olea](https://do.linkedin.com/in/onesis-olea)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
