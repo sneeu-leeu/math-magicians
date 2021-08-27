@@ -4,7 +4,9 @@
 
 > This is a SPA in which you can do calculations on a calculator
 
-![screenshot](./img/scree-shot.png)
+![Homepage](./img/homepage.png)
+![Calculator](./img/calpage.png)
+![Quote](./img/quotepage.png)
 
 ## Built With
 
@@ -13,7 +15,8 @@
 
 ## Live Demo
 
-- Under construction..._
+
+- [Live Demo](https://eloquent-bartik-1b997d.netlify.app/calculator)
 
 ### Setup
 
@@ -22,13 +25,14 @@ To get a local copy up and running follow these simple example steps.
 Click [here](https://github.com/sneeu-leeu/math-magicians) to go to the repo and clone the project by opening your terminal and entering "git clone" + "The link supplied".
 
 cd into the repo by typing
-$ cd ./your-path/math-magicians
+$ cd ./your-path/math-magicians/
 
-$ git checkout feature/components
+$ git checkout feature/tests
 
 $ npm install
 
 $ npm start
+
 
 ## Authors
 
